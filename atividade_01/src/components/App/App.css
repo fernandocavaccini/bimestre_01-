@@ -13,6 +13,27 @@
   }
 }
 
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 35%;
+    
+}
+
+.wrapper h1 {
+    text-align: left;
+    width: 100%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
